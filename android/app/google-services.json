@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "394026918663",
+    "project_id": "realty-nsk",
+    "storage_bucket": "realty-nsk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394026918663:android:b93240474dac8d92891ba2",
+        "android_client_info": {
+          "package_name": "com.webrtc_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394026918663-7j2vod4560fr5v1nlkca3bd60n7jkpir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOAmhft45Df3C7d211LJ0b8Xwo-uyjPzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394026918663-7j2vod4560fr5v1nlkca3bd60n7jkpir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
