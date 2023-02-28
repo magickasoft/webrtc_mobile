@@ -12,7 +12,7 @@ export const MainScreen: FC<MainScreenProps> = () => {
       <View
         style={{
           flex: 1,
-          backgroundColor: '#fff',
+          backgroundColor: '#ccc',
           borderTopLeftRadius: 12,
           borderTopRightRadius: 12,
           shadowColor: '#116FA4',
