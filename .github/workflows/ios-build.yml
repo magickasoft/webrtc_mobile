@@ -1,0 +1,25 @@
+name: IOS
+on:
+  push:
+    branches:
+      - master
+      - dev
+jobs:
+  build:
+    name: Build
+    runs-on: macos-12
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: |
+          yarn mount
+
+      - name: Build IOS Debug
+        run: |
+          yarn ios-build-debug
+
+      - name: Build IOS Release
+        run: |
+          yarn ios-build-release
