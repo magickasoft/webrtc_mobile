@@ -10,7 +10,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          yarn mount
+          yarn
 
       - name: Lint
         run: |
