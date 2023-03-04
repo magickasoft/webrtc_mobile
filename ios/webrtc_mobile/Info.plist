@@ -35,8 +35,32 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>$(PRODUCT_NAME) media library use</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>We need to access your bluetooth</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>We need to access your bluetooth</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>We need to access your calendar</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need to access your camera for setting personal avatar or photo to this account</string>
+	<key>NSContactsUsageDescription</key>
+	<string>We need to access your address book so we can see if your contacts are also using our application. Tap 'Allow' so we see who else from your contacts also using the application.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need your location so we can pick you up at the right spot. Tap 'Allow' so we can find you.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need your location so we can pick you up at the right spot. Tap 'Allow' so we can find you.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>$(PRODUCT_NAME) need you location for map</string>
+	<key>NSMotionUsageDescription</key>
+	<string>We need to access your motion sensor</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need to access your photo library for setting personal avatar to this account</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>We need to access your microphone</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This identifier will be used to deliver personalized ads to you.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -46,8 +70,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>

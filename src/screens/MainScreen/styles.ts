@@ -2,42 +2,25 @@ import styled from 'styled-components/native';
 
 import {DefaultThemeScheme} from '../../theme/theme-app';
 
-export const MainScrollView = styled.ScrollView<{
+export const Container = styled.View<{
   theme: DefaultThemeScheme;
 }>`
   flex: 1;
-`;
-
-export const FlexContainer = styled.View`
-  flex: 1;
-`;
-
-export const Center = styled.View`
-  flex: 1;
-  align-items: center;
+  background-color: #ccc;
   justify-content: center;
+  align-items: center;
 `;
 
-export const Title = styled.Text<{theme: DefaultThemeScheme}>`
-  margin-top: 15px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: ${({theme}) => theme.text.primary};
+export const Buttons = styled.View`
+  align-items: flex-start;
+  flex-direction: column;
 `;
 
-export const ButtonContainer = styled.View`
-  width: 80%;
-  padding-top: 20px;
+export const Input = styled.TextInput`
+  border-width: 1px;
+  padding: 5px;
 `;
 
-export const TitleFilter = styled.Text<{theme: DefaultThemeScheme}>`
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: ${({theme}) => theme.text.primary};
+export const Row = styled.View`
+  flex-direction: row;
 `;
