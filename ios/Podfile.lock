@@ -862,7 +862,6 @@ PODS:
     - Libuv-gRPC (= 0.0.10)
   - gRPC-Core/Interface (1.44.0)
   - hermes-engine (0.70.7)
-  - JitsiWebRTC (106.0.0)
   - leveldb-library (1.22.1)
   - libevent (2.1.12)
   - Libuv-gRPC (0.0.10):
@@ -1132,8 +1131,7 @@ PODS:
     - RCTTypeSafety
     - React-Core
     - ReactCommon/turbomodule/core
-  - react-native-webrtc (106.0.6):
-    - JitsiWebRTC (~> 106.0.0)
+  - react-native-webrtc (1.94.2):
     - React-Core
   - React-perflogger (0.70.7)
   - React-RCTActionSheet (0.70.7):
@@ -1347,7 +1345,6 @@ SPEC REPOS:
     - GoogleUtilities
     - "gRPC-C++"
     - gRPC-Core
-    - JitsiWebRTC
     - leveldb-library
     - libevent
     - Libuv-gRPC
@@ -1501,7 +1498,6 @@ SPEC CHECKSUMS:
   "gRPC-C++": 9675f953ace2b3de7c506039d77be1f2e77a8db2
   gRPC-Core: 943e491cb0d45598b0b0eb9e910c88080369290b
   hermes-engine: 566e656aa95456a3f3f739fd76ea9a9656f2633f
-  JitsiWebRTC: f441eb0e2d67f0588bf24e21c5162e97342714fb
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   Libuv-gRPC: 55e51798e14ef436ad9bc45d12d43b77b49df378
@@ -1535,7 +1531,7 @@ SPEC CHECKSUMS:
   React-logger: e9f407f9fdf3f3ce7749ae6f88affe63e8446019
   react-native-mmkv: 69b9c003f10afdd01addf7c6ee784ce42ee2eff3
   react-native-safe-area-context: 39c2d8be3328df5d437ac1700f4f3a4f75716acc
-  react-native-webrtc: 22ac6c64a1e38552bb173dde81ffea6979a58ef3
+  react-native-webrtc: 1856ac061df94b1bd6037f1f3b56d1b8bc2b50e7
   React-perflogger: 52a94f38c19a518d05726624b49bfc192639374d
   React-RCTActionSheet: 7b89fe64a852bc3ae39b91dbd142ef09931ef3f7
   React-RCTAnimation: ad84bfbf8c5f6f77e65092d0c2b0506b80b5cf99
