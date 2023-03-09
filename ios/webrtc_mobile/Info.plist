@@ -44,7 +44,9 @@
 	<key>NSCalendarsUsageDescription</key>
 	<string>We need to access your calendar</string>
 	<key>NSCameraUsageDescription</key>
-	<string>We need to access your camera for setting personal avatar or photo to this account</string>
+	<string>We need to access your camera</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need to access your microphone</string>
 	<key>NSContactsUsageDescription</key>
 	<string>We need to access your address book so we can see if your contacts are also using our application. Tap 'Allow' so we see who else from your contacts also using the application.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
